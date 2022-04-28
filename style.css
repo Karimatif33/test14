@@ -5,7 +5,7 @@
 }
 body {
   background-image: linear-gradient(#16384c, #2f495f);
-  min-height: 1000px;
+  min-height: 1300px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -45,7 +45,7 @@ section {
   background-color: white;
   height: 400px;
   width: 350px;
-  margin: 400px auto 20px auto;
+  margin: 400px auto 50px auto;
   position: relative;
   font-family: sans-serif;
 }
