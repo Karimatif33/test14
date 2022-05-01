@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
     box-sizing: border-box;
   }
@@ -10,6 +11,29 @@ html {
 
 *{
   margin: 0;
+=======
+* {
+  border-radius: 12px;
+  text-align: center;
+  /* color: white; */
+}
+body {
+  background-image: linear-gradient(#16384c, #2f495f);
+  min-height: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+header {
+  padding-bottom: 20px;
+  border-radius: 25px;
+  background-color: white;
+  margin: -20px auto 0px auto;
+  font-size: 80px;
+  width: 100%;
+  height: 100px;
+  color: #16384c;
+  animation: hed 5s infinite;
+>>>>>>> 95a8fb031cdc14c391361a00902672344ecb59fe
 }
 
   .main-page{
@@ -32,6 +56,7 @@ html {
   }
   
 
+<<<<<<< HEAD
   
   .logo{
     width: 30vw;
@@ -46,6 +71,41 @@ html {
   text-decoration: none;
   color: #d2d7d9;
   padding: 0px 9px 9px 0px;
+=======
+}
+img {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  left: 25px;
+  top: -78px;
+  transition: all 0.8s;
+}
+section:hover img {
+  border-radius: 50%;
+  top: -158px;
+  transform: rotate(720deg);
+  transition: all 0.8s;
+}
+section {
+  background-color: white;
+  height: 400px;
+  width: 350px;
+  margin: 400px auto 50px auto;
+  position: relative;
+  font-family: sans-serif;
+}
+section:hover {
+  padding: 30px 0px 0px 0px;
+}
+.p {
+  opacity: 0;
+  position: relative;
+  top: 150px;
+}
+section:hover .p {
+  padding: 40px 0px 0px 0px;
+>>>>>>> 95a8fb031cdc14c391361a00902672344ecb59fe
   opacity: 1;
     }
     @media (max-width: 680px) {
@@ -119,6 +179,7 @@ html {
   margin: 0px auto 0px auto;
 display: inline-block;
 }
+<<<<<<< HEAD
 .text h2{
   margin: 0px auto 14px auto;
   color:#d2d7d9;
@@ -205,3 +266,16 @@ color:#d2d7d9cc;
     text-align: center;
   }
 }
+=======
+@keyframes hed {
+    0%   {transform: translate(0, 0);  border-radius: 25px 25px 80px 80px;
+        padding-bottom: 45px;
+    }
+    40%  {transform: translate(0, 0);  border-radius: 25px 25px 15px 15px;
+        padding-bottom: 20px;
+    }
+    100% {transform: translate(0, 0);  border-radius: 25px 25px 80px 80px;
+        padding-bottom: 45px;
+    }
+  } 
+>>>>>>> 95a8fb031cdc14c391361a00902672344ecb59fe
