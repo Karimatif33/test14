@@ -1,0 +1,305 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+*{
+  margin: 0;
+}
+
+  .main-page{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    color: #d2d7d9;
+    background-image: url(img/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 23px;
+  }
+  nav{
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 10px 10px 5px;
+    padding: 40px 10px 10px 10px;
+  }
+  
+
+  
+  .logo{
+    width: 30vw;
+    color: #fdfdfd;
+
+  }
+  .logo p{
+    right: 10px;
+  }
+  .nav-link a{
+    width: 70vw;
+  text-decoration: none;
+  color: #d2d7d9;
+  padding: 0px 9px 9px 0px;
+  opacity: 1;
+    }
+    @media (max-width: 680px) {
+      .nav-link a{
+        width: 20vw;
+        display: flex;
+        /* margin: 0px 10px 10px 10px; */
+        /* padding: 40px 10px 10px 10px; */
+        justify-content: space-evenly;
+     }
+    }
+    .nav-link a:hover{
+  opacity: 0.7;
+  }
+ .main-section {
+    width: 500px;
+    background-color: #ffffffce;
+    text-align: center;
+    padding: 80px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+    
+  }
+  @media (max-width: 820px) {
+    .main-section{
+      /* width: 70vw; */
+      width: 300px;
+      text-align: center;
+      padding: 71px;
+      margin: 100px auto 0px auto;
+      display: flex;
+      justify-content: center;
+      align-content: stretch;
+      flex-wrap: wrap;
+    }
+  }
+
+  .main-section h3{
+   font-family: 'Cookie', cursive;
+  color: #2c3a42;
+  font-size: 60px;
+  font-weight:lighter;
+  }
+  .main-section h1{
+    color: #ad6c12;
+    font-size: 40px;
+    font-weight:200;
+  }
+  .main-section p{
+    width: 140px;
+    margin: 5px auto 0px auto;
+    padding: 3px;
+    background-color: #ffffff;
+    color: #2c3a42;
+  }
+  .page-two{
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: 42vh;
+    background-color:#2a3b40 ;
+    display: flex;
+  }
+.text{
+  width: 700px;
+  text-align:left ;
+  padding: 80px;
+  margin: 0px auto 0px auto;
+display: inline-block;
+}
+.text h2{
+  margin: 0px auto 14px auto;
+  color:#d2d7d9;
+}
+@media (max-width: 820px) {
+  .text {
+    width: 100vw;
+    margin: 10px auto 30px auto;
+    padding: 0px;
+text-align: center;
+  }
+}
+.text p{
+margin: 0px auto 30px auto;
+font-size: 13px;
+font-weight: 300;
+color:#d2d7d9cc;
+}
+.page-two-img{
+  display: inline-block;
+}
+.page-two-img img{
+  position: absolute;
+  width: 334px;
+  height: 226px;
+  right: 231px;
+  bottom: -401px;
+}
+@media (max-width: 920px) {
+  .page-two-img img{
+    margin: 10px auto -4px auto;
+    right: 64px;
+    bottom: -329px;
+    width: 274px;
+    height: 182px;
+  }
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #2a3b40;
+  border-radius: 50%;
+  display: inline-block;
+}
+.page-three{
+  background-color: #d4d8d9;
+  font-family: 'Raleway', sans-serif;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: 41vh;
+    display: flex;
+}
+.sec{
+ margin: 80px auto 10px auto ; 
+}
+.sec-1 {
+  width: 25vw;
+  height: 30vh;
+}
+.sec h4{
+  margin: 15px auto 20px auto;
+  font-size: 20px;
+}
+.sec p{
+  font-size: 12px;
+}
+@media (max-width: 920px) {
+  .sec p{
+    font-size: 11px;
+    padding: 10px;
+  }
+}
+.sec-2 {
+  width: 25vw;
+  height: 30vh;
+}
+
+.sec-3 {
+  width: 25vw;
+  height: 30vh;
+}
+@media (max-width: 820px) {
+  .sec{
+    width: 158vw;
+    height: 30vh;
+    text-align: center;
+    display: block;
+
+  }
+}
+.container{
+  display: grid; 
+  grid-template-columns: 0.5fr 1.2fr 1.2fr 1.2fr 1.2fr 0.6fr; 
+  grid-template-rows: 0.6fr 1.2fr 1.2fr 1.2fr 1.2fr 0.6fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". . . . . ."
+    ". h3 h3 h3 h3 ."
+    ". img1 pl-1 img2 pl-2 ."
+    ". pl-3 img3 pl-4 img4 ."
+    ". img5 pl-5 img6 pl-6 . "
+    ". . . . . ."; 
+    width: 100%; 
+    height: 100%; 
+    margin: 0px auto 0px auto;
+
+}
+@media (max-width: 820px) {
+  .container{
+   position: relative;
+      width: 100%; 
+      height: 100%; 
+padding: 0px 0px 0px 0px;
+  }
+}
+.page-four {
+  background-image: url(img/page-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gr{
+background-color: #ffffffce;
+
+}
+@media (max-width: 820px) {
+  .gr{
+
+    width: 100%;
+    height: 100%; 
+    }
+}
+.gr-img{
+  width: 100%; 
+height: 100%; 
+}
+@media (max-width: 820px) {
+  .gr-img{
+    width: 100%; 
+  height: 100%; 
+  }
+}
+
+.gr-h3 { grid-area: h3; 
+  background-color: #ffffffce;
+  text-align: center;
+  padding: 80px;}
+  @media (max-width: 820px) {
+    .gr-h3 {  
+      padding: 0;
+        width: 88vw;}
+  }
+.img1 { grid-area: img1; }
+.pl-1 { grid-area: pl-1; }
+.img2 { grid-area: img2; }
+.img3 { grid-area: img3; }
+.pl-2 { grid-area: pl-2; }
+.pl-3 { grid-area: pl-3; }
+.pl-4 { grid-area: pl-4; }
+.img4 { grid-area: img4; }
+.img5 { grid-area: img5; }
+.pl-5 { grid-area: pl-5; }
+.pl-6 { grid-area: pl-6; }
+.img6 { grid-area: img6; }
+.gr-h3 h3 {
+  font-family: 'Cookie', cursive;
+  color: #2c3a42;
+  font-size: 60px;
+  font-weight: lighter;
+}
+.gr-h3 h1 {
+  font-family: 'Raleway', sans-serif;
+
+  color: #ad6c12;
+  font-size: 40px;
+  font-weight: bolder;
+}
+@media (max-width: 820px) {
+  .gr-h3 h1 {
+    color: #ad6c12;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+}
