@@ -153,9 +153,9 @@ color:#d2d7d9cc;
 }
 @media (max-width: 920px) {
   .page-two-img img{
-    margin: 10px auto -51px auto;
+    margin: 10px auto 0px auto;
     right: 64px;
-     bottom: -350px; 
+     bottom: -344px; 
     width: 274px;
     height: 182px;
   }
