@@ -132,7 +132,7 @@ display: inline-block;
     margin: 10px auto 30px auto;
     padding: 0px;
 text-align: center;
-display: block;
+display: inline-block;
   }
 }
 .text p{
@@ -142,7 +142,7 @@ font-weight: 300;
 color:#d2d7d9cc;
 }
 .page-two-img{
-  display: block;
+  display: inline-block;
 }
 .page-two-img img{
   position: absolute;
@@ -155,7 +155,7 @@ color:#d2d7d9cc;
   .page-two-img img{
     margin: 10px auto -51px auto;
     right: 64px;
-     bottom: 0px; 
+     bottom: -350px; 
     width: 274px;
     height: 182px;
   }
