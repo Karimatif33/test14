@@ -132,6 +132,7 @@ display: inline-block;
     margin: 10px auto 30px auto;
     padding: 0px;
 text-align: center;
+display: block;
   }
 }
 .text p{
