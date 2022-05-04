@@ -149,13 +149,13 @@ color:#d2d7d9cc;
   width: 334px;
   height: 226px;
   right: 231px;
-  bottom: -471px;
+  bottom: -271px;
 }
 @media (max-width: 920px) {
   .page-two-img img{
     margin: 10px auto -51px auto;
     right: 64px;
-    /* bottom: -345px; */
+     bottom: -355px; 
     width: 274px;
     height: 182px;
   }
