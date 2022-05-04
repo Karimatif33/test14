@@ -153,8 +153,8 @@ color:#d2d7d9cc;
 }
 @media (max-width: 920px) 
   .page-two-img img{
-    margin: 0px auto 30px auto;
-    display: block;
+    
+bottom: -341px;
 }
     right: 64px;
      bottom: -344px; 
